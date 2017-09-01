@@ -2296,7 +2296,7 @@ fieldset[disabled] .btn.active {
     margin: 12px 10px 0 10px;
     padding: 3px 0px 0 6px;
     border-radius: 2px;
-    background: url("../../../../../3.bp.blogspot.com/-EznzkHBnKbk/Up4icD70ujI/AAAAAAAADYA/BzRSsyl-5y0/s20/menu-responsive.png") no-repeat center;
+    background: url("http://3.bp.blogspot.com/-EznzkHBnKbk/Up4icD70ujI/AAAAAAAADYA/BzRSsyl-5y0/s20/menu-responsive.png") no-repeat center;
   }
 
   .navbar-icon .icon {
@@ -3534,15 +3534,20 @@ corresponds to the arrow we want to display */
 .tooltip_templates {
   display: none !important;
 }
-
 @media screen and (max-width: 1920px) {
   #particles-js {
-    height: 460px;
+    height: 550px;
   }
 }
+@media screen and (max-width: 1440px) {
+  #particles-js {
+    height: 660px;
+  }
+}
+
 @media screen and (max-width: 850px) {
   #particles-js {
-    height: 512px;
+    height: 812px;
   }
 }
 @media screen and (max-width: 750px) {
@@ -3562,6 +3567,11 @@ corresponds to the arrow we want to display */
 }
 @media screen and (max-width: 470px) {
   #particles-js {
-    height: 1180px;
+    height: 1660px;
+  }
+}
+@media screen and (max-width: 340px) {
+  #particles-js {
+    height: 2060px;
   }
 }
