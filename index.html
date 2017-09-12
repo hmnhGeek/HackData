@@ -29,12 +29,9 @@
 
     <title>HackData 2017</title>
 
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Advent+Pro:300,400,500,600,700" rel="stylesheet">
+    
     <link rel="stylesheet" href="dest/css/bundle.css">
-
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
     <script src="particles.js/particles.js"></script>
    <script>
@@ -61,6 +58,31 @@
     .data-source--procure {
         display: none;
     }
+    * {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 </style>
 
 <body>
@@ -128,11 +150,11 @@
 
                 <br>
 
-                <a href="https://goo.gl/forms/izKn8UOp8r3qZv8K2"
+                <a href="https://goo.gl/forms/BTcSOrPEyDJTjqCj1"
                    class="btn watch-video-btn" target="_blank">Register Here</a>
             </div>
 
-
+</div>
 
           <!--  <img src="src/assets/images/lines_bottom.svg" alt="" class="line-bottom">-->
 
@@ -728,7 +750,7 @@ s
                 </div>
                 <div class="supporter-col">
                     <a href="http://hacksociety.tech/">
-                        <img src="src/assets/images/hacksociety.png" style="width: 250px;" class="grayscale" alt="">
+                        <img src="src/assets/images/hacksociety.png" style="width: 250px;" class="grayscale">
                     </a>
                 </div>
             </div>
@@ -740,44 +762,57 @@ s
             <h2 class="title">Sponsors</h2>
                 <div class="organizer-wrap">
                 <div class="row">
-                    <div class="col-sm-3">
+                <div class="col-6">
+                        <a href="https://jumper.ai/" class="partner-block" target="_blank">
+                            <img src="src/assets/images/techgig.svg" alt="" style="width: 360px; margin-top: 21px">
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a href="https://jumper.ai/" class="partner-block" target="_blank">
+                            <img src="src/assets/images/jumper.svg" alt="" style="width: 431px; margin-top: 21px">
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-3">
                         <a href="https://www.hackerrank.com/dashboard" class="partner-block" target="_blank">
                             <img src="src/assets/images/hacker.png" style="width: 214px" alt="">
                         </a> 
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-3">
                         <a href="https://www.winuall.com/" class="partner-block" target="_blank">
                             <img src="src/assets/images/win.png" alt="" style="width: 214px">
                         </a>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-3">
                         <a href="http://www.hackerearth.com/" class="partner-block" target="_blank">
                             <img src="src/assets/images/hackerearth.png" style="width: 214px;" alt="">
                         </a>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-3">
                         <a href="http://www.johnsnowlabs.com/" class="partner-block" target="_blank">
                             <img src="src/assets/images/john-snow-labs-logo.png" alt="" style="width: 214px;">
                         </a>
                     </div>                    
                 </div>
                 <div class="row">
-                    <div class="col-sm-3">
+                    <div class="col-3">
                         <a href="http://get.tech/" class="partner-block" target="_blank">
                             <img src="src/assets/images/tech.png" style="width: 150px;" alt="">
                         </a>
                     </div>  
-                    <div class="col-sm-3">
+                    <div class="col-3">
                         <a href="https://about.gitlab.com/" class="partner-block" target="_blank">
-                            <img src="src/assets/images/gitlab.svg" style="width: 228px;" alt="">
+                            <img src="src/assets/images/gitlab.svg" style="width: 228px; margin-top: 12px" alt="">
                         </a>
                     </div>  
-                    <div class="col-sm-3">
+                    <div class="col-3">
                         <a href="https://www.python.org/" class="partner-block" target="_blank">
-                            <img src="src/assets/images/python_logo.svg" style="width: 228px;" alt="">
+                            <img src="src/assets/images/python_logo.svg" style="width: 228px; margin-top: 21px" alt="">
                         </a>
                     </div> 
-                    <div class="col-sm-3">
+                    <div class="col-3">
                         <a href="https://www.jetbrains.com/" class="partner-block" target="_blank">
                             <img src="src/assets/images/jetbrains1.png" alt="" style="width: 100px;">
                         </a>
@@ -786,27 +821,34 @@ s
                 </div>
             
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-3">
                         <a href="https://www.npmjs.com/" class="partner-block" target="_blank">
-                            <img src="src/assets/images/npm.png" alt="" style="width: 150px;">
+                            <img src="src/assets/images/npm.png" alt="" style="width: 150px; margin-top: 21px">
                         </a>
                 </div> 
-                <div class="col-sm-3">
+                <div class="col-3">
                         <a href="https://www.sketchapp.com/" class="partner-block" target="_blank">
-                            <img src="src/assets/images/sketch_l.png" alt="" style="width: 75px;">
+                            <img src="src/assets/images/sketch_l.png" alt="" style="width: 75px; margin-top: 13px">
                         </a>
                 </div>
-                <div class="col-sm-3">
-                        <a href="https://jumper.ai/" class="partner-block" target="_blank">
-                            <img src="src/assets/images/jumper.svg" alt="" style="width: 275px;">
+                 
+                <div class="col-3">
+                        <a href="https://github.com/" class="partner-block" target="_blank">
+                            <img src="src/assets/images/github.png" alt="" style="width: 275px;">
                         </a>
-                </div> 
+                </div>
+                <div class="col-3">
+                        <a href="https://iconscout.com/" class="partner-block" target="_blank">
+                            <img src="src/assets/images/iconscout.png" alt="" style="width: 100px;">
+                        </a>
+                </div>
             </div>
+            
                 <br>
             
             <div class="row" >
             
-                <div class="col-sm-12" style="text-align: center;">
+                <div class="col-12" style="text-align: center;">
                     <h2><a target="_blank" style="color:#27b798;" href="sponsorship/hackdata.pdf"><u>(Download Sponsorship Brochure)</u></a></h2>
                 </div>
             </div>     
