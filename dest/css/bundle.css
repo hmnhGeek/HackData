@@ -2082,7 +2082,7 @@ fieldset[disabled] .btn.active {
   text-align: left;
 }
 
-.supporter-col .partner-block img {
+/*.supporter-col .partner-block img {
   margin-bottom: 20px;
 }
 
@@ -2095,7 +2095,7 @@ fieldset[disabled] .btn.active {
 
 .supporter-col .partner-block:last-child {
   margin-left: 24px;
-}
+}*/
 
 @media only screen and (max-width: 992px) {
   .supporter-col {
